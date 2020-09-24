@@ -23,8 +23,8 @@ Crie uma função que adicione um valor à variável criada acima, e retorne a s
 Onde VALOR é o novo valor da variável.
 */
 function adicionaValor() {
-  novaVariavel = 'VALOR';
-  return 'O valor da variável agora é VALOR.';
+  novaVariavel = 25;
+  return 'O valor da variável agora é ' + novaVariavel + '.';
 }
 
 // Invoque a função criada acima.
@@ -83,7 +83,6 @@ function argumentos(a, b, c) {
 }
 
 // Invoque a função acima utilizando todas as possibilidades (com nenhum argumento, com um, com dois e com três.) Coloque um comentário de linha ao lado da função com o resultado de cada invocação.
-?
 argumentos(); // false;
 argumentos(10); // 10;
 argumentos(10, 10); // 20;
