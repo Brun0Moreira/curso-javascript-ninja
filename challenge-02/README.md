@@ -9,10 +9,10 @@ function soma(a, b) {
 }
 
 // Declare uma variável que receba a invocação da função criada acima, passando dois números quaisquer por argumento, e somando `5` ao resultado retornado da função.
-var valorSomado = soma(10, 10) + '5';
+var valorSomado = soma(1, 1) + 5;
 
 // Qual o valor atualizado dessa variável?
-'205'
+'7'
 
 // Declare uma nova variável, sem valor.
 var novaVariavel;
@@ -40,24 +40,24 @@ Crie uma função com as seguintes características:
     Preencha todos os valores corretamente!
 3. O retorno da função deve ser a multiplicação dos 3 argumentos, somando `2` ao resultado da multiplicação.
 */
-function soma3(a, b, c) {
+function multiplica3(a, b, c) {
   if(a === undefined || b === undefined || c === undefined) {
     return 'Preencha todos os valores corretamente!';
   };
-  return (a * b * c) + '2';
+  return (a * b * c) + 2;
 }
 
 // Invoque a função criada acima, passando só dois números como argumento.
-soma3(10, 10);
+multiplica3(1, 1);
 
 // Qual o resultado da invocação acima? (Use comentários para mostrar o valor retornado).
 // Preencha todos os valores corretamente!
 
 // Agora invoque novamente a função criada acima, mas passando todos os três argumentos necessários.
-soma3(10, 10, 10);
+multiplica3(1, 1, 1);
 
 // Qual o resultado da invocação acima? (Use comentários para mostrar o valor retornado).
-//100002
+//5
 
 /*
 Crie uma função com as seguintes características:
