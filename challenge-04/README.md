@@ -108,7 +108,7 @@ citado acima, no lugar de "pessoas".
 carro.adicionarPessoa = function( qtdPessoas ) {
     var totalPessoas = carro.quantidadePessoas + qtdPessoas;
 
-    if (totalPessoas >= carro.assentos)
+    if (carro.quantidadePessoas === carro.assentos && totalPessoas >= carro.assentos)
         return 'O carro já está lotado!';
 
     var qtdAssentos = (carro.assentos - carro.quantidadePessoas);
