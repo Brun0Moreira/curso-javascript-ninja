@@ -111,12 +111,12 @@ carro.adicionarPessoas = function( qtdPessoas ) {
     if (carro.quantidadePessoas === carro.assentos && totalPessoas >= carro.assentos)
         return 'O carro já está lotado!';
 
-    var qtdAssentos = (carro.assentos - carro.quantidadePessoas);
-    var plural = qtdAssentos > 1 ? 's' : '';
-
-    if (totalPessoas > carro.assentos)
+    if (totalPessoas > carro.assentos) {
+        var qtdAssentos = (carro.assentos - carro.quantidadePessoas);
+        var plural = qtdAssentos > 1 ? 's' : '';
         return 'Só cabem mais ' + qtdAssentos + ' pessoa' + plural + '!'
-    
+    };
+        
     carro.quantidadePessoas += qtdPessoas;
     plural = carro.quantidadePessoas > 1 ? 's' : '';
 
