@@ -27,6 +27,11 @@ isTruthy('Bruno');
 isTruthy(1);
 isTruthy('0');
 isTruthy(true);
+isTruthy(1+1);
+isTruthy(1*1);
+isTruthy([]);
+isTruthy({});
+isTruthy(function () {});
 
 /*
 Declare uma variável chamada `carro`, atribuindo à ela um objeto com as
