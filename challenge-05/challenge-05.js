@@ -35,11 +35,11 @@ var myArray = [0, 1, 'Bruno', 'Moreira', function() {}];
 Invoque a função criada acima, fazendo-a retornar todos os valores do último
 array criado.
 */
-twoParams(myArray, 0);
-twoParams(myArray, 1);
-twoParams(myArray, 2);
-twoParams(myArray, 3);
-twoParams(myArray, 4);
+console.log(twoParams(myArray, 0));
+console.log(twoParams(myArray, 1));
+console.log(twoParams(myArray, 2));
+console.log(twoParams(myArray, 3));
+console.log(twoParams(myArray, 4));
 
 /*
 Crie uma função chamada `book`, que recebe um parâmetro, que será o nome do
